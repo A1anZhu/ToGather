@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24286DAC270AC5D5005B62DD /* ToGetherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DAB270AC5D5005B62DD /* ToGetherApp.swift */; };
+		24286DAC270AC5D5005B62DD /* ToGatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DAB270AC5D5005B62DD /* ToGatherApp.swift */; };
 		24286DAE270AC5D5005B62DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DAD270AC5D5005B62DD /* ContentView.swift */; };
 		24286DB0270AC5D7005B62DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24286DAF270AC5D7005B62DD /* Assets.xcassets */; };
 		24286DB3270AC5D7005B62DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24286DB2270AC5D7005B62DD /* Preview Assets.xcassets */; };
-		24286DBD270AC5D7005B62DD /* ToGetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DBC270AC5D7005B62DD /* ToGetherTests.swift */; };
-		24286DC7270AC5D7005B62DD /* ToGetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DC6270AC5D7005B62DD /* ToGetherUITests.swift */; };
-		24286DC9270AC5D7005B62DD /* ToGetherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DC8270AC5D7005B62DD /* ToGetherUITestsLaunchTests.swift */; };
+		24286DBD270AC5D7005B62DD /* ToGatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DBC270AC5D7005B62DD /* ToGatherTests.swift */; };
+		24286DC7270AC5D7005B62DD /* ToGatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DC6270AC5D7005B62DD /* ToGatherUITests.swift */; };
+		24286DC9270AC5D7005B62DD /* ToGatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24286DC8270AC5D7005B62DD /* ToGatherUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +35,15 @@
 
 /* Begin PBXFileReference section */
 		24286DA8270AC5D5005B62DD /* ToGather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToGather.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		24286DAB270AC5D5005B62DD /* ToGetherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGetherApp.swift; sourceTree = "<group>"; };
+		24286DAB270AC5D5005B62DD /* ToGatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGatherApp.swift; sourceTree = "<group>"; };
 		24286DAD270AC5D5005B62DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24286DAF270AC5D7005B62DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24286DB2270AC5D7005B62DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24286DB8270AC5D7005B62DD /* ToGatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToGatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24286DBC270AC5D7005B62DD /* ToGetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGetherTests.swift; sourceTree = "<group>"; };
+		24286DBC270AC5D7005B62DD /* ToGatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGatherTests.swift; sourceTree = "<group>"; };
 		24286DC2270AC5D7005B62DD /* ToGatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToGatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24286DC6270AC5D7005B62DD /* ToGetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGetherUITests.swift; sourceTree = "<group>"; };
-		24286DC8270AC5D7005B62DD /* ToGetherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGetherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24286DC6270AC5D7005B62DD /* ToGatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGatherUITests.swift; sourceTree = "<group>"; };
+		24286DC8270AC5D7005B62DD /* ToGatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		24286D9F270AC5D5005B62DD = {
 			isa = PBXGroup;
 			children = (
-				24286DAA270AC5D5005B62DD /* ToGether */,
-				24286DBB270AC5D7005B62DD /* ToGetherTests */,
-				24286DC5270AC5D7005B62DD /* ToGetherUITests */,
+				24286DAA270AC5D5005B62DD /* ToGather */,
+				24286DBB270AC5D7005B62DD /* ToGatherTests */,
+				24286DC5270AC5D7005B62DD /* ToGatherUITests */,
 				24286DA9270AC5D5005B62DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,15 +91,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24286DAA270AC5D5005B62DD /* ToGether */ = {
+		24286DAA270AC5D5005B62DD /* ToGather */ = {
 			isa = PBXGroup;
 			children = (
-				24286DAB270AC5D5005B62DD /* ToGetherApp.swift */,
+				24286DAB270AC5D5005B62DD /* ToGatherApp.swift */,
 				24286DAD270AC5D5005B62DD /* ContentView.swift */,
 				24286DAF270AC5D7005B62DD /* Assets.xcassets */,
 				24286DB1270AC5D7005B62DD /* Preview Content */,
 			);
-			path = ToGether;
+			path = ToGather;
 			sourceTree = "<group>";
 		};
 		24286DB1270AC5D7005B62DD /* Preview Content */ = {
@@ -110,21 +110,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		24286DBB270AC5D7005B62DD /* ToGetherTests */ = {
+		24286DBB270AC5D7005B62DD /* ToGatherTests */ = {
 			isa = PBXGroup;
 			children = (
-				24286DBC270AC5D7005B62DD /* ToGetherTests.swift */,
+				24286DBC270AC5D7005B62DD /* ToGatherTests.swift */,
 			);
-			path = ToGetherTests;
+			path = ToGatherTests;
 			sourceTree = "<group>";
 		};
-		24286DC5270AC5D7005B62DD /* ToGetherUITests */ = {
+		24286DC5270AC5D7005B62DD /* ToGatherUITests */ = {
 			isa = PBXGroup;
 			children = (
-				24286DC6270AC5D7005B62DD /* ToGetherUITests.swift */,
-				24286DC8270AC5D7005B62DD /* ToGetherUITestsLaunchTests.swift */,
+				24286DC6270AC5D7005B62DD /* ToGatherUITests.swift */,
+				24286DC8270AC5D7005B62DD /* ToGatherUITestsLaunchTests.swift */,
 			);
-			path = ToGetherUITests;
+			path = ToGatherUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24286DAE270AC5D5005B62DD /* ContentView.swift in Sources */,
-				24286DAC270AC5D5005B62DD /* ToGetherApp.swift in Sources */,
+				24286DAC270AC5D5005B62DD /* ToGatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24286DBD270AC5D7005B62DD /* ToGetherTests.swift in Sources */,
+				24286DBD270AC5D7005B62DD /* ToGatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24286DC9270AC5D7005B62DD /* ToGetherUITestsLaunchTests.swift in Sources */,
-				24286DC7270AC5D7005B62DD /* ToGetherUITests.swift in Sources */,
+				24286DC9270AC5D7005B62DD /* ToGatherUITestsLaunchTests.swift in Sources */,
+				24286DC7270AC5D7005B62DD /* ToGatherUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
