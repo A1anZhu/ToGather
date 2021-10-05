@@ -1,10 +1,9 @@
-//
+、//
 //  ContentView.swift
 //  ToGather
 //
 //  Created by Alan Zhu on 2021/9/27.
 //
-
 import SwiftUI
 
 struct ContentView: View {
@@ -55,22 +54,28 @@ struct Event: View {
             HStack{
                 Text("Event \(code)")
                     .font(Font.body)
+                
                     
 
                 if(follow){
-                    Image(systemName: "heart.fill").foregroundColor(Color.red)
+                    Image(systemName: "heart.fill")
+                        .foregroundColor(Color.red)
+                        .onTapGesture {
+                            follow = !follow
+                        }
                 }
                 else{
                     Image(systemName: "heart")
+                        .onTapGesture {
+                        follow = !follow
+                        }
                 }
                 
             }
 
             
         }
-        .onTapGesture {
-            follow = !follow
-        }
+        
     }
     
 }
