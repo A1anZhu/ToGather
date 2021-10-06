@@ -16,17 +16,23 @@ struct ContentView: View {
     var rej_reason: Array<String> = [""]
     
     var body: some View {
-        VStack {
-            Text("ToGather").foregroundColor(Color.black)
-                .font(Font.largeTitle)
-            ForEach(1..<7){index in
-                Event(code: index, name: "Spring Festival",
-                        time: Date(),culture: "Chinese",
-                      description: "A fun event.")
+        NavigationView {
+            ScrollView {
+                VStack {
+                    Text("ToGather").foregroundColor(Color.black)
+                        .font(Font.largeTitle)
+                    ForEach(1..<60){index in
+                        Event(code: index,
+                              name: "Spring Festival",
+                              time: Date(),
+                              culture: "Chinese",
+                              description: "A fun event.")
+                    }
+                }
+                .foregroundColor(Color.black)
+                .padding()
             }
         }
-        .foregroundColor(Color.black)
-        .padding()
     }
 }
 
